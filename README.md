@@ -16,6 +16,7 @@ ROS : ROS Kinetic Kame
 Sensor : Myo armband (Thalmic Labs)
 
 *Working System*(in Ubuntu)
+
 $ roscore
 $ roslaunch ur_modern_driver ur3_bringup.launch robot_ip:= (input_your_ip)
 $ rosrun ur_modern_driver myo-rawNode.py
