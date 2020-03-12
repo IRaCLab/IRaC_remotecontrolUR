@@ -8,14 +8,24 @@ The robot arm moves in the same direction as the human movement,
 and the gripper moved on the robot arm is operated by a human hand gesture.
 
 
-<Development Environment and Equipment>
+**Development Environment and Equipment**
+
+
 Robot arm : UR3 (Universal Robots)
+
 Gripper : 2F - 140 Gripper (Robotiq)
+
 OS : Linux Ubuntu 16.04 (VirtualBox)
+
 ROS : ROS Kinetic Kame
+
 Sensor : Myo armband (Thalmic Labs)
 
-<Working System>(in Ubuntu)
+
+
+
+**Working System**(in Ubuntu)
+
 
 $ roscore
 
