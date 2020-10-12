@@ -1,11 +1,11 @@
-Teleoperation Control of ROS-based Industrial Robot using EMG signals.
+Teleoperation Control of ROS-based Industrial Robot with EMG signals.
 
-This System uses ROS in Ubuntu environments using PC. Robot Arm with 6 degree of freedom is controlled remotely using the EMG sensor. 
-Robot arms and PC are wired together, and the electrostatic sensors are wirelessly connected to PC using Bluetooth adapters. 
-Using ROS-communication, data about arm movements recognized by the EMG sensor is sent to the robot arm.
+This System is used in ROS in Ubuntu environments (PC). Robot Arm with 6 DOF is controlled remotely using a EMG sensor. 
+Robot arms and PC are connected, and the sensor is wirelessly connected to PC using a Bluetooth adapter. 
+Using ROS-communication, arm movement data recognized by the sensor are sent to the robot arm.
 
-The robot arm moves in the same direction as the human movement, 
-and the gripper moved on the robot arm is operated by a human hand gesture.
+The robot arm moves in the same direction as the human movement.
+And a gripper is operated by a human hand gesture.
 
 
 **Development Environment and Equipment**
@@ -15,9 +15,9 @@ Robot arm : UR3 (Universal Robots)
 
 Gripper : 2F - 140 Gripper (Robotiq)
 
-OS : Linux Ubuntu 16.04 (VirtualBox)
+OS : Linux Ubuntu 18.04
 
-ROS : ROS Kinetic Kame
+ROS : ROS Melodic Morenia
 
 Sensor : Myo armband (Thalmic Labs)
 
