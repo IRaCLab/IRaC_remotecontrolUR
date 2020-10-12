@@ -29,9 +29,9 @@ Sensor : Myo armband (Thalmic Labs)
 
 $ roscore
 
-$ roslaunch ur_modern_driver ur3_bringup.launch robot_ip:= (input_your_ip)
+$ roslaunch ur_robot_driver ur3_bringup.launch robot_ip:= (input_your_ip)
 
-$ rosrun ur_modern_driver myo-rawNode.py
+$ rosrun ur_robot_driver myo-rawNode.py
 
 $ rosrun robotiq_2f_gripper_control Robotiq2FGripperRtuNode.py /dev/ttyUSB0
 
@@ -39,4 +39,4 @@ $ rosrun robotiq_2f_gripper_control Robotiq2FGripperStatusListener.py
 
 $ rosrun robotiq_2f_gripper_control Robotiq2FGripperSimpleController.py
 
-$ rosrun ur_modern_driver RemoteUR3.py
+$ rosrun ur_robot_driver RemoteControl_UR3_2to3.py
